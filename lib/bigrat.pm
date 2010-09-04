@@ -1,7 +1,7 @@
 package bigrat;
 use 5.006;
 
-$VERSION = '0.23';
+$VERSION = '0.24';
 require Exporter;
 @ISA		= qw( bigint );
 @EXPORT_OK 	= qw( PI e bpi bexp );
@@ -485,13 +485,13 @@ This will be hopefully fixed soon ;)
 
 =item hex
 
-Override the build-in hex() method with a version that can handle big
+Override the built-in hex() method with a version that can handle big
 integers. Note that under Perl v5.9.4 or ealier, this will be global
 and cannot be disabled with "no bigint;".
 
 =item oct
 
-Override the build-in oct() method with a version that can handle big
+Override the built-in oct() method with a version that can handle big
 integers. Note that under Perl v5.9.4 or ealier, this will be global
 and cannot be disabled with "no bigint;".
 
