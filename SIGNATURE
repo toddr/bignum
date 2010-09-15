@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.64.
+signed via the Module::Signature module, version 0.66.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -15,12 +15,12 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 3e34b513bc08cc9724085b26df0767b8d4d8c1b5 BUGS
-SHA1 2843ea4b7f2e7932a70790d126918022a778f0eb CHANGES
+SHA1 6850c50b75b9b972e83ad21d0ff8e89d9c1fa3c0 CHANGES
 SHA1 79eb2714ac601ef69639106391036c7d341989de INSTALL
 SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
 SHA1 d6b24a2df4d8d41fb602095f750334c4c7de4f03 MANIFEST
 SHA1 0cd5576c6c11bfb8564e633dab22333a2b25440a MANIFEST.SKIP
-SHA1 b6e3c60bc099eeabeea4b5d7115967ed752a7b17 META.yml
+SHA1 7c4dc8cf9978edcbd13aa45f5da788f5be2ae0c7 META.yml
 SHA1 a2762ec83737b6f1ca2947b66f172c37e3e175c1 Makefile.PL
 SHA1 8c630804551c0bb41a1cd03f0c7e9c926e3f86f3 README
 SHA1 ffea651b3975289e76187e8d16e3497d36f754bb TODO
@@ -34,36 +34,36 @@ SHA1 5457015ea5a50e93465bf2dafa29feebd547f85b inc/Module/Install/Win32.pm
 SHA1 051e7fa8063908befa3440508d0584a2497b97db inc/Module/Install/WriteAll.pm
 SHA1 00be5f214bfdc6ec5da910aec62b1fee00d610c1 lib/Math/BigFloat/Trace.pm
 SHA1 dd6afbb42cbe5488433fa4796844eb6955d39b8b lib/Math/BigInt/Trace.pm
-SHA1 8a9e4941a74cdf84f5c3ecc2b5a42e474a201fba lib/bigint.pm
-SHA1 aee1ed82c707803506047f940014b96eadd13912 lib/bignum.pm
-SHA1 a47002b06defaede74a3da37bc7eff0b6c6af898 lib/bigrat.pm
-SHA1 1e4d073022db29f220a41a254e74d10460f199b1 t/big_e_pi.t
-SHA1 8867440eed880109124aac46843c6b2a7e0dacbc t/bigexp.t
-SHA1 599d07f25f9c63fe190caa3c4f335390173a446b t/bigint.t
-SHA1 8f227864973c1b64c47ed43c3ffe2caec5b699a6 t/bignum.t
-SHA1 d054b56f53a0e4dc6e84a2e45d2348bdb269c085 t/bigrat.t
-SHA1 ad71909a5a44c51464176d33ba07e68b0b9fb4d0 t/bii_e_pi.t
-SHA1 370efae97201c80e75a5211cb9cdfd64add8dbe9 t/biinfnan.t
-SHA1 8dd8a37a5d164593d853bdceb56097bd657d38f8 t/bir_e_pi.t
-SHA1 b3917168a617d1f7ef6b7d67b31dc9d7f60e4827 t/bn_lite.t
-SHA1 1ce6816887148629f67a47b8b1abdae40f38127c t/bninfnan.t
-SHA1 5a808b83fdc6977857b9f7fdf87b00a99c48311a t/br_lite.t
-SHA1 453c475d7eca2592330ae7acb9bdd10c0e51f40a t/brinfnan.t
-SHA1 b9b8eacce5f38f3fbdf5220b92cfd8c3f22902c7 t/in_effect.t
-SHA1 d9b3b24fbd00b50b7da63f07f1c665951cf89ab4 t/infnan.inc
-SHA1 b211dad7ef88e0fd70accbde68efc2e190bc40aa t/option_a.t
-SHA1 fe69856d92d4e885a3be07775d3a2a099ce6d890 t/option_l.t
-SHA1 7b4461c5f04a8f48b6b691e4c069c2873758f2f1 t/option_p.t
+SHA1 5303a695dbca2c4c556870da2fcaeafb426a0b78 lib/bigint.pm
+SHA1 813e837196aeb89cdc93db255395f91f5a66eb27 lib/bignum.pm
+SHA1 dfd26d32a4b4c48403ae4f65d91a1462a5b62011 lib/bigrat.pm
+SHA1 cc400bbb3220d8e5ce2e6fa84a13b5404aff3d5b t/big_e_pi.t
+SHA1 267ca4c9a9ea24570917043a60f8a4b9cebdb9cd t/bigexp.t
+SHA1 c426d58a113dd57150239c32515c963fc29d9706 t/bigint.t
+SHA1 13bdb51e922250c00e0f19ec03c4554ef5793564 t/bignum.t
+SHA1 0c70882226b909861e4b11c663e28ac872041372 t/bigrat.t
+SHA1 7aaf080491490e06b9406e21fe45db4b676b3d96 t/bii_e_pi.t
+SHA1 8c641a7b88083b2c2eff01639d3d286161e7c8a0 t/biinfnan.t
+SHA1 dd32eade9ad3ae9fb3a6ef7c4c7c999f48d765f0 t/bir_e_pi.t
+SHA1 39eb7d3ce7855e6e64b2e11483a8f6b31fc4f11a t/bn_lite.t
+SHA1 0c124d63c8dfa2bcdbb1a6fdb0470700be46c9d1 t/bninfnan.t
+SHA1 dd81bc3dd6844b8bbcc171cfbc615103822aff6f t/br_lite.t
+SHA1 b27e71a06b1602406ee5967e9ce7c91a5f3b5231 t/brinfnan.t
+SHA1 6d7e270cc95474d118088a3d744c9e58d0776e5c t/in_effect.t
+SHA1 366e85465a3048a50d4c9b670b12bf76b0a58e07 t/infnan.inc
+SHA1 7a6d19c551a0b1120ad6d5767c225fd7f72ceec8 t/option_a.t
+SHA1 a3b64c6f320a3bc776ac3cc6f01e3c94c594f014 t/option_l.t
+SHA1 197fcd8b00bedf4d0b9592d27fbe38275972446c t/option_p.t
 SHA1 38f406188e0f8eb94bf5856b2814f801358459d1 t/pod.t
 SHA1 33ad981d3f1a949cb45343a7ffb2832d772887db t/pod_cov.t
-SHA1 7a4b92967deaf879232c4b13ec356ca6dba92982 t/ratopt_a.t
-SHA1 712e0fe6f8109b63202d484f554bfd7afeb6ed7d t/scope_f.t
-SHA1 41acb64f281b0915761dcdbc841c7abea43c6500 t/scope_i.t
-SHA1 af55e0d1f3070e21271694b9f51f3c43b59d1eb2 t/scope_r.t
+SHA1 4aa1cbcfed5e370aec8b70cfcda5db298b9d9829 t/ratopt_a.t
+SHA1 5fdacccd735d7dbdaf89a1aabf246a1c5a5b6198 t/scope_f.t
+SHA1 3cd778675f3f131ebb77cbfc45f7cd156497431c t/scope_i.t
+SHA1 348fadbac35795a7141194b7fbf17ed341fe0137 t/scope_r.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkyCQXcACgkQdC8qQo5jWl4kXQCfU9+GckCzixr3HxwgaD1KsxJT
-dpEAniGQoz2/NXoJyyGhbTXs0H1Fzely
-=b0Tk
+iEYEARECAAYFAkyQJDwACgkQdC8qQo5jWl5vIwCfWGigEnAz5UjquOQJNuehHgKp
+sUAAn0O/mdS/eQX3KUw9wg8/BKxiHBqc
+=1IKx
 -----END PGP SIGNATURE-----
