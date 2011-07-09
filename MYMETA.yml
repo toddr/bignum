@@ -1,15 +1,15 @@
 ---
 abstract: 'Transparent BigNumber support for Perl'
 author:
-  - '(C) by Tels L<http://bloodgate.com/> in early 2002 - 2007.'
-  - 'Tels <nospam-abuse@bloodgate.com>'
+  - '(C) by Tels L<http://bloodgate.com/> in early 2002 - 2007., Tels <nospam-abuse@bloodgate.com>'
 build_requires:
   ExtUtils::MakeMaker: 6.42
   Test::More: 0.62
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 0
 distribution_type: module
-generated_by: 'Module::Install version 1.01'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.57_05'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,12 +17,10 @@ meta-spec:
 name: bignum
 no_index:
   directory:
-    - inc
     - t
+    - inc
 requires:
   Math::BigInt: 1.88
   Math::BigRat: 0.21
   perl: 5.006
-resources:
-  license: http://dev.perl.org/licenses/
 version: 0.28
