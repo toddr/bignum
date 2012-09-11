@@ -3,12 +3,12 @@ abstract: 'Transparent BigNumber support for Perl'
 author:
   - '(C) by Tels L<http://bloodgate.com/> in early 2002 - 2007., Tels <nospam-abuse@bloodgate.com>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
   Test::More: 0.62
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 0
-generated_by: 'ExtUtils::MakeMaker version 6.58, CPAN::Meta::Converter version 2.110930'
+generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -22,4 +22,4 @@ requires:
   Math::BigInt: 1.88
   Math::BigRat: 0.21
   perl: 5.006
-version: 0.29
+version: 0.30

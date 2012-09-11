@@ -5,7 +5,7 @@
       "Tels <nospam-abuse@bloodgate.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Install version 1.01, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -23,13 +23,13 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.42",
+            "ExtUtils::MakeMaker" : "6.59",
             "Test::More" : "0.62"
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.42"
+            "ExtUtils::MakeMaker" : "6.59"
          }
       },
       "runtime" : {
@@ -46,5 +46,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.29"
+   "version" : "0.30"
 }

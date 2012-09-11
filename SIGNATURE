@@ -15,30 +15,30 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 3e34b513bc08cc9724085b26df0767b8d4d8c1b5 BUGS
-SHA1 9e7ac0add3a295fddff4a91018f861100606d521 CHANGES
+SHA1 7f078e08121b48c70ae447296fa9dbae3b94c654 CHANGES
 SHA1 79eb2714ac601ef69639106391036c7d341989de INSTALL
 SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
 SHA1 6f3175bf8d50c284b44853f316dc4a59a4c67630 MANIFEST
 SHA1 0cd5576c6c11bfb8564e633dab22333a2b25440a MANIFEST.SKIP
-SHA1 7e710540b4a7efc63d9410a33785cfcd86a8635a META.yml
-SHA1 94a5bf82fe874f6a84a01b4a5b860da272c13514 MYMETA.json
-SHA1 269c9b1b0e4da2d3b2b70d8edc2e1291375ee24f MYMETA.yml
+SHA1 95e3675cc61aa354003ef3821f40c7d9fd983d01 META.yml
+SHA1 4d46b05bfe57ac0add5827c0041427796da5bdd4 MYMETA.json
+SHA1 f940737aa38a93764c23f6b105462368677da5a9 MYMETA.yml
 SHA1 a2762ec83737b6f1ca2947b66f172c37e3e175c1 Makefile.PL
 SHA1 8c630804551c0bb41a1cd03f0c7e9c926e3f86f3 README
 SHA1 ffea651b3975289e76187e8d16e3497d36f754bb TODO
-SHA1 7b4ae50ebac72d20761171c4c2b50c206344ea40 inc/Module/Install.pm
-SHA1 d9fe55a427fe2fd75b5029afeeaa61b592e07f79 inc/Module/Install/Base.pm
-SHA1 62d3922826d9f89f20c185e7031ac8f028504745 inc/Module/Install/Can.pm
-SHA1 dc809f64fb70a26b069a36f8d3d353d520dbb7e1 inc/Module/Install/Fetch.pm
-SHA1 73ab91490a628452cc140db72ef9d13a1326d211 inc/Module/Install/Makefile.pm
-SHA1 8ce3f2b414e4617e6233dd4ba10830f8c5d672ec inc/Module/Install/Metadata.pm
-SHA1 3b0acd2eeac93a0afe48120f5648f0db362e5bbf inc/Module/Install/Win32.pm
-SHA1 f08924f051e623f8e09fa6a121993c4a9cf7d9eb inc/Module/Install/WriteAll.pm
-SHA1 e2508de6c572196c879fcd7189e39ebbc4ca9e28 lib/Math/BigFloat/Trace.pm
-SHA1 3bb69eddb54b4728eed92cf76ceccf1e03b020a0 lib/Math/BigInt/Trace.pm
-SHA1 ce17da536fd94ba506553245cd9cce0841a99bc9 lib/bigint.pm
-SHA1 5b6d5fa7caf8a19b5b7818ffa3009a7e95a2f333 lib/bignum.pm
-SHA1 b41b4692e43ca780f99a6ec672967a04bcdf59db lib/bigrat.pm
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 f1c8b4db08618851bd17244d7c3a932d5c8aebfe lib/Math/BigFloat/Trace.pm
+SHA1 48791c5c3fee389a433618cb2c33206108c315a3 lib/Math/BigInt/Trace.pm
+SHA1 0ca179e21a17ef8fb039889d464df776f7c28671 lib/bigint.pm
+SHA1 7c451c7521e17fa1f453c1644730557d3e7b7fde lib/bignum.pm
+SHA1 c5053f742aa53ea560e057bc896c17c63d8a197b lib/bigrat.pm
 SHA1 cc400bbb3220d8e5ce2e6fa84a13b5404aff3d5b t/big_e_pi.t
 SHA1 267ca4c9a9ea24570917043a60f8a4b9cebdb9cd t/bigexp.t
 SHA1 31bb89630baf8cb32b0d92ecc340a58e69ff3d8f t/bigint.t
@@ -63,9 +63,9 @@ SHA1 5fdacccd735d7dbdaf89a1aabf246a1c5a5b6198 t/scope_f.t
 SHA1 3cd778675f3f131ebb77cbfc45f7cd156497431c t/scope_i.t
 SHA1 348fadbac35795a7141194b7fbf17ed341fe0137 t/scope_r.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.11 (GNU/Linux)
+Version: GnuPG v1.4.12 (GNU/Linux)
 
-iEYEARECAAYFAk4/9PkACgkQdC8qQo5jWl4mmwCePrTBa8aflAh1bfE4AoUoh0uA
-I7MAn08giL3yur45eYLOGhYU4x4+NFnc
-=+/Qx
+iEYEARECAAYFAlBPRvwACgkQdC8qQo5jWl4yRgCfQM//5I2J9X7ZqzP8KTLXCrlE
+ki4AnR11fbRuZTFE9utlhDHjLo+Bm2EA
+=jSsK
 -----END PGP SIGNATURE-----
