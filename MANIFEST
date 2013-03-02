@@ -39,6 +39,7 @@ t/infnan.inc
 t/option_a.t
 t/option_l.t
 t/option_p.t
+t/overrides.t
 t/pod.t
 t/pod_cov.t
 t/ratopt_a.t

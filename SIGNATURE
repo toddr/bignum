@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.70.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -18,11 +18,11 @@ SHA1 3e34b513bc08cc9724085b26df0767b8d4d8c1b5 BUGS
 SHA1 7f078e08121b48c70ae447296fa9dbae3b94c654 CHANGES
 SHA1 79eb2714ac601ef69639106391036c7d341989de INSTALL
 SHA1 d6a6c30ee6d9ba6b9afab8bbf6a25e1b23c744e0 LICENSE
-SHA1 6f3175bf8d50c284b44853f316dc4a59a4c67630 MANIFEST
+SHA1 5f8ef912fae065341f1de3557d9d39a9349c906a MANIFEST
 SHA1 0cd5576c6c11bfb8564e633dab22333a2b25440a MANIFEST.SKIP
-SHA1 95e3675cc61aa354003ef3821f40c7d9fd983d01 META.yml
-SHA1 4d46b05bfe57ac0add5827c0041427796da5bdd4 MYMETA.json
-SHA1 f940737aa38a93764c23f6b105462368677da5a9 MYMETA.yml
+SHA1 cd74c512af5b64a02680e84c4d7a33cae9e1d184 META.yml
+SHA1 928b8d2cf548b4cdef86dd257c010b596a2af7d3 MYMETA.json
+SHA1 628413b0c8e3630cf6aa65f3137b9aab5071965d MYMETA.yml
 SHA1 a2762ec83737b6f1ca2947b66f172c37e3e175c1 Makefile.PL
 SHA1 8c630804551c0bb41a1cd03f0c7e9c926e3f86f3 README
 SHA1 ffea651b3975289e76187e8d16e3497d36f754bb TODO
@@ -34,14 +34,14 @@ SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
 SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
 SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
 SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
-SHA1 f1c8b4db08618851bd17244d7c3a932d5c8aebfe lib/Math/BigFloat/Trace.pm
-SHA1 48791c5c3fee389a433618cb2c33206108c315a3 lib/Math/BigInt/Trace.pm
-SHA1 0ca179e21a17ef8fb039889d464df776f7c28671 lib/bigint.pm
-SHA1 7c451c7521e17fa1f453c1644730557d3e7b7fde lib/bignum.pm
-SHA1 c5053f742aa53ea560e057bc896c17c63d8a197b lib/bigrat.pm
+SHA1 f1cf28dea417d2bba03f481f578885c3a8bf6494 lib/Math/BigFloat/Trace.pm
+SHA1 cccc22c24807493ff981cff819e96a79e9b73c75 lib/Math/BigInt/Trace.pm
+SHA1 3e6b550d1a6857ea39f0e138839d6f01624e72ac lib/bigint.pm
+SHA1 68476416f1a55f4316d7a01b27635e7cfc186df9 lib/bignum.pm
+SHA1 9a7091c1897ec9aaef99049e794b9acebb4b4ce4 lib/bigrat.pm
 SHA1 cc400bbb3220d8e5ce2e6fa84a13b5404aff3d5b t/big_e_pi.t
 SHA1 267ca4c9a9ea24570917043a60f8a4b9cebdb9cd t/bigexp.t
-SHA1 31bb89630baf8cb32b0d92ecc340a58e69ff3d8f t/bigint.t
+SHA1 69c9c482b178142c52f5c671425b68c2cfd0c426 t/bigint.t
 SHA1 e9a63187b50b6f8f8003fd1452247121509ce66b t/bignum.t
 SHA1 4e6f2d68ff1d131b364738c9ef29ccc63a1160c0 t/bigrat.t
 SHA1 7aaf080491490e06b9406e21fe45db4b676b3d96 t/bii_e_pi.t
@@ -56,6 +56,7 @@ SHA1 366e85465a3048a50d4c9b670b12bf76b0a58e07 t/infnan.inc
 SHA1 7a6d19c551a0b1120ad6d5767c225fd7f72ceec8 t/option_a.t
 SHA1 a3b64c6f320a3bc776ac3cc6f01e3c94c594f014 t/option_l.t
 SHA1 197fcd8b00bedf4d0b9592d27fbe38275972446c t/option_p.t
+SHA1 d8ec5bc4b6f544f80d36ae3eb193c6d0c5ba4590 t/overrides.t
 SHA1 38f406188e0f8eb94bf5856b2814f801358459d1 t/pod.t
 SHA1 33ad981d3f1a949cb45343a7ffb2832d772887db t/pod_cov.t
 SHA1 4aa1cbcfed5e370aec8b70cfcda5db298b9d9829 t/ratopt_a.t
@@ -65,7 +66,7 @@ SHA1 348fadbac35795a7141194b7fbf17ed341fe0137 t/scope_r.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iEYEARECAAYFAlBPRvwACgkQdC8qQo5jWl4yRgCfQM//5I2J9X7ZqzP8KTLXCrlE
-ki4AnR11fbRuZTFE9utlhDHjLo+Bm2EA
-=jSsK
+iEYEARECAAYFAlEyLzQACgkQdC8qQo5jWl4j5ACeJIRE2QFxaNtiWRJt8tz+JSZD
+SuMAnjYDv7Sft+2W9adAAvfQExNngbx4
+=aDbG
 -----END PGP SIGNATURE-----
