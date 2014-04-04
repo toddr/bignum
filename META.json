@@ -1,11 +1,10 @@
 {
    "abstract" : "Transparent BigNumber support for Perl",
    "author" : [
-      "(C) by Tels L<http://bloodgate.com/> in early 2002 - 2007.",
-      "Tels <nospam-abuse@bloodgate.com>"
+      "(C) by Tels L<http://bloodgate.com/> in early 2002 - 2007., Tels <nospam-abuse@bloodgate.com>"
    ],
-   "dynamic_config" : 0,
-   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.120921",
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.94, CPAN::Meta::Converter version 2.140640",
    "license" : [
       "perl_5"
    ],
@@ -16,8 +15,8 @@
    "name" : "bignum",
    "no_index" : {
       "directory" : [
-         "inc",
-         "t"
+         "t",
+         "inc"
       ]
    },
    "prereqs" : {
@@ -29,22 +28,17 @@
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.59"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "runtime" : {
          "requires" : {
-            "Math::BigInt" : "1.88",
-            "Math::BigRat" : "0.21",
+            "Math::BigInt" : "1.87",
+            "Math::BigRat" : "0.12",
             "perl" : "5.006"
          }
       }
    },
    "release_status" : "stable",
-   "resources" : {
-      "license" : [
-         "http://dev.perl.org/licenses/"
-      ]
-   },
-   "version" : "0.32"
+   "version" : "0.37"
 }

@@ -18,10 +18,11 @@ LICENSE
 Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
-META.yml
-MYMETA.json
-MYMETA.yml
 README
+t/00sig.t
+t/01load.t
+t/02pod.t
+t/03podcov.t
 t/big_e_pi.t
 t/bigexp.t
 t/bigint.t
@@ -40,11 +41,11 @@ t/option_a.t
 t/option_l.t
 t/option_p.t
 t/overrides.t
-t/pod.t
-t/pod_cov.t
 t/ratopt_a.t
 t/scope_f.t
 t/scope_i.t
 t/scope_r.t
 TODO
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
 SIGNATURE                                Public-key signature (added by MakeMaker)
