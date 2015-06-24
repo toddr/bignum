@@ -1,3 +1,7 @@
+2015-06-24 toddr 0.39
+  * use eval block to load Math::BigInt::Lite
+  * document limitations of the big* implementation
+
 2014-04-03 pjacklam 0.36
   * Synchronise with blead perl.
   * Added new '00sig.t', '01load.t', '02pod.t', and '03pod_cov.t'.
